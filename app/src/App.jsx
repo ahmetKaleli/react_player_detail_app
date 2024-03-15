@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import Details from "./pages/Details"
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/detail/:id' element={<Details />} />
+        <Route path='/contact' element={<Contact/>} />
       </Routes>
       <Footer />
      </Router>

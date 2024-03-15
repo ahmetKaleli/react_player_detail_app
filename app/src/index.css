@@ -7,6 +7,8 @@
   
   .header p {
       cursor: pointer;
+      display: inline;
+      margin: 10px;
   }
   
   .footer{
@@ -56,4 +58,36 @@
   
   th {
     background-color: #f2f2f2;
+  }
+  .form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
   }

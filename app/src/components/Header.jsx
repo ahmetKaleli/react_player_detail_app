@@ -6,7 +6,8 @@ export default function Header() {
 
   return (
     <div className='header'>
-      <p onClick={()=>navigate("/")}>Player Detail</p>
+      <p onClick={()=>navigate("/")}>Player Detail</p>  
+     - <p onClick={()=>navigate("/contact")}>Contact</p>
     </div>
   )
 }
